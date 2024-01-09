@@ -9,7 +9,7 @@
       </div>
 
       <example-viewer
-        title="QHierarchy Filter Demo"
+        title="Zhierarchy Filter Demo"
         file="FilterDemo"
       />
 
@@ -28,7 +28,7 @@ export default defineComponent({
   name: "FilterDemoExample",
   setup() {
     return {
-      title: 'QHierarchy Filter Demo',
+      title: 'Zhierarchy Filter Demo',
       year,
       openLink(href) {
         window.open(href)

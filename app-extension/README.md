@@ -1,26 +1,26 @@
-# QHierarchy
+# Zhierarchy
 
 
-[![npm](https://img.shields.io/npm/v/quasar-app-extension-qhierarchy.svg?label=quasar-app-extension-qhierarchy)](https://www.npmjs.com/package/quasar-app-extension-qhierarchy)
-[![npm](https://img.shields.io/npm/dt/quasar-app-extension-qhierarchy.svg)](https://www.npmjs.com/package/quasar-app-extension-qhierarchy)
+[![npm](https://img.shields.io/npm/v/quasar-app-extension-zhierarchy.svg?label=quasar-app-extension-zhierarchy)](https://www.npmjs.com/package/quasar-app-extension-zhierarchy)
+[![npm](https://img.shields.io/npm/dt/quasar-app-extension-zhierarchy.svg)](https://www.npmjs.com/package/quasar-app-extension-zhierarchy)
 
 <!-- Please note, this is currently a work-in-progress (WIP). -->
 
-QHierarchy is a [Quasar App Extension](https://quasar.dev/app-extensions/introduction).  It allows you to display data in hierarchy structure on your page.
+Zhierarchy is a [Quasar App Extension](https://quasar.dev/app-extensions/introduction).  It allows you to display data in hierarchy structure on your page.
 
 ## Install
 
 To add this App Extension to your Quasar application, run the following (in your Quasar app folder):
 
 ```bash
-quasar ext add qhierarchy
+quasar ext add zhierarchy
 ```
 
 # Uninstall
 To remove this App Extension from your Quasar application, run the following (in your Quasar app folder):
 
 ```
-quasar ext remove qhierarchy
+quasar ext remove zhierarchy
 ```
 
 
@@ -33,7 +33,7 @@ quasar ext remove qhierarchy
             label: 'Label',
             align: 'left',
             field: 'label',
-            // (optional) tell QHierarchy you want this column sortable
+            // (optional) tell Zhierarchy you want this column sortable
             sortable: true
         },
         {
@@ -52,7 +52,7 @@ quasar ext remove qhierarchy
         }
     ],
 
-     
+
 # Defining Data
 
      [
@@ -89,15 +89,15 @@ quasar ext remove qhierarchy
 
 # Source
 
-can be found [here](https://github.com/pratik227/quasar-qhierarchy).
+can be found [here](https://github.com/pratik227/quasar-zhierarchy).
 
 # Docs
 
-can be found [here](https://next-quasar-qhierarchy.netlify.app/).
+can be found [here](https://next-quasar-zhierarchy.netlify.app/).
 
 # Demo (source) Project.
 
-can be found [here](https://github.com/pratik227/quasar-qhierarchy/tree/next/demo).
+can be found [here](https://github.com/pratik227/quasar-zhierarchy/tree/next/demo).
 
 # Sponsors
 

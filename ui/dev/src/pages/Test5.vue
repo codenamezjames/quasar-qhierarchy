@@ -1,8 +1,8 @@
 <template>
   <q-page class="q-pa-sm">
     <q-input v-model="filter" label="Search" outlined class="q-py-sm"></q-input>
-    <q-hierarchy dense :columns="columns" :data="data" :classes="classes" :dark="dark"
-                 :default-expand-all="default_expand_all" :filter="filter"></q-hierarchy>
+    <z-hierarchy dense :columns="columns" :data="data" :classes="classes" :dark="dark"
+                 :default-expand-all="default_expand_all" :filter="filter"></z-hierarchy>
   </q-page>
 </template>
 
@@ -15,7 +15,7 @@ const columns = [
     label: 'Label',
     align: 'left',
     field: 'label',
-    // (optional) tell QHierarchy you want this column sortable
+    // (optional) tell Zhierarchy you want this column sortable
     sortable: true,
     filterable: true
   },

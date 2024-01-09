@@ -1,5 +1,5 @@
 <template>
-  <q-hierarchy :columns="columns" :data="data"></q-hierarchy>
+  <z-hierarchy :columns="columns" :data="data"></z-hierarchy>
 </template>
 
 <script>
@@ -11,7 +11,7 @@ const columns = [
     label: 'Label',
     align: 'left',
     field: 'label',
-    // (optional) tell QHierarchy you want this column sortable
+    // (optional) tell Zhierarchy you want this column sortable
     sortable: true
   },
   {

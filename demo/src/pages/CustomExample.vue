@@ -9,7 +9,7 @@
       </div>
 
       <example-viewer
-        title="QHierarchy Custom"
+        title="Zhierarchy Custom"
         file="Custom"
       />
 
@@ -27,7 +27,7 @@ export default defineComponent({
   name: "CustomExample",
   setup() {
     return {
-      title: 'QHierarchy Custom',
+      title: 'Zhierarchy Custom',
       year,
       openLink(href) {
         window.open(href)

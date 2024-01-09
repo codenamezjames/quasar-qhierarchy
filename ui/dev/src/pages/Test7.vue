@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-pa-sm">
-    <q-hierarchy dense :columns="columns" :data="data" @sort_column="test($event)" :classes="classes" :dark="dark"
+    <z-hierarchy dense :columns="columns" :data="data" @sort_column="test($event)" :classes="classes" :dark="dark"
                  :expand_on_row_click="true">
       <template v-slot:body="props">
         <td data-th="Name">
@@ -36,7 +36,7 @@
           <q-icon v-if="col.sorted" :name="col.sortDirection=='asc'?'arrow_upward':'arrow_downward'"></q-icon>
         </th>
       </template>
-    </q-hierarchy>
+    </z-hierarchy>
   </q-page>
 </template>
 
@@ -49,7 +49,7 @@ const columns = [
     label: 'Label',
     align: 'left',
     field: 'label',
-    // (optional) tell QHierarchy you want this column sortable
+    // (optional) tell Zhierarchy you want this column sortable
     sortable: true
   },
   {

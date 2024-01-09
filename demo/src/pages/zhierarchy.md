@@ -1,22 +1,22 @@
-# QHierarchy
+# Zhierarchy
 
 <!-- Please note, this is currently a work-in-progress (WIP). -->
 
-QHierarchy is a [Quasar App Extension](https://quasar.dev/app-extensions/introduction).  It allows you to display data in hierarchy structure on your page.
+Zhierarchy is a [Quasar App Extension](https://quasar.dev/app-extensions/introduction).  It allows you to display data in hierarchy structure on your page.
 
 ## Install
 
 To add this App Extension to your Quasar application, run the following (in your Quasar app folder):
 
 ```bash
-quasar ext add qhierarchy
+quasar ext add zhierarchy
 ```
 
 # Uninstall
 To remove this App Extension from your Quasar application, run the following (in your Quasar app folder):
 
 ```
-quasar ext remove qhierarchy
+quasar ext remove zhierarchy
 ```
 
 
@@ -29,7 +29,7 @@ quasar ext remove qhierarchy
             label: 'Label',
             align: 'left',
             field: 'label',
-            // (optional) tell QHierarchy you want this column sortable
+            // (optional) tell Zhierarchy you want this column sortable
             sortable: true
         },
         {
@@ -85,19 +85,19 @@ quasar ext remove qhierarchy
 
 # Source
 
-can be found [here](https://github.com/pratik227/quasar-qhierarchy).
+can be found [here](https://github.com/pratik227/quasar-zhierarchy).
 
 # Docs
 
-can be found [here](https://quasar-qhierarchy.netlify.com).
+can be found [here](https://quasar-zhierarchy.netlify.com).
 
 # Examples
 
-can be found [here](https://quasar-qhierarchy.netlify.com/examples).
+can be found [here](https://quasar-zhierarchy.netlify.com/examples).
 
 # Demo (source) Project.
 
-can be found [here](https://github.com/pratik227/quasar-qhierarchy/tree/master/demo).
+can be found [here](https://github.com/pratik227/quasar-zhierarchy/tree/master/demo).
 
 
 # Support

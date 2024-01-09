@@ -49,7 +49,7 @@ import {defineComponent} from 'vue';
 import {ref} from 'vue';
 
 export default defineComponent({
-  name: "QHierarchy",
+  name: "Zhierarchy",
   props: ['data', 'columns', 'separator', 'dense', 'dark', 'flat', 'bordered', 'square', 'classes', 'defaultExpandAll', 'filter', 'expand_on_row_click','footer_text','footer_class'],
   setup() {
     return {

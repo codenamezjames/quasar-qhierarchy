@@ -9,7 +9,7 @@
       </div>
 
       <example-viewer
-        title="QHierarchy Footer Slot Demo"
+        title="Zhierarchy Footer Slot Demo"
         file="FooterSlotDemo"
       />
 
@@ -28,7 +28,7 @@ export default defineComponent({
   name: "CustomExample",
   setup(){
     return{
-      title:'QHierarchy Footer Slot Demo',
+      title:'Zhierarchy Footer Slot Demo',
       year,
       openLink(href) {
         window.open(href)

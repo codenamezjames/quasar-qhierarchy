@@ -11,7 +11,7 @@
         />
 
         <q-toolbar-title>
-          quasar-ui-qhierarchy v{{ version }}
+          quasar-ui-zhierarchy v{{ version }}
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>

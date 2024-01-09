@@ -1,8 +1,8 @@
 {
-  "name": "quasar-ui-qhierarchy",
+  "name": "quasar-ui-zhierarchy",
   "version": "1.0.18",
   "author": "pratikpatelpp802@gmail.com",
-  "description": "QHierarchy",
+  "description": "Zhierarchy",
   "license": "MIT",
   "module": "dist/index.esm.js",
   "main": "dist/index.common.js",
@@ -16,10 +16,10 @@
     "build": "node build/index.js",
     "build:js": "node build/script.javascript.js"
   },
-  "homepage": "https://next-quasar-qhierarchy.netlify.app/",
+  "homepage": "https://next-quasar-zhierarchy.netlify.app/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pratik227/quasar-qhierarchy.git"
+    "url": "git+https://github.com/pratik227/quasar-zhierarchy.git"
   },
   "funding": {
     "type": "github",

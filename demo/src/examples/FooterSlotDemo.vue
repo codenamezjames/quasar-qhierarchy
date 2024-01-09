@@ -1,9 +1,9 @@
 <template>
-  <q-hierarchy dense :columns="columns" :data="data" :classes="classes" :dark="dark" >
+  <z-hierarchy dense :columns="columns" :data="data" :classes="classes" :dark="dark" >
     <template v-slot:footer="props">
       <td :colspan="columns.length">CC-BY / MIT License | Copyright © 2020 - 2023 Pratik Patel</td>
     </template>
-  </q-hierarchy>
+  </z-hierarchy>
 </template>
 
 <script>
@@ -15,7 +15,7 @@ const columns = [
     label: 'Label',
     align: 'left',
     field: 'label',
-    // (optional) tell QHierarchy you want this column sortable
+    // (optional) tell Zhierarchy you want this column sortable
     sortable: true
   },
   {

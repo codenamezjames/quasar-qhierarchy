@@ -1,15 +1,15 @@
-import QHierarchy from '../src/components/QHierarchy.vue'
+import Zhierarchy from '../src/components/Zhierarchy.vue'
 
 import pkg from '../package.json'
 const { version } = pkg
 
 function install (app) {
-  app.component(QHierarchy.name, QHierarchy)
+  app.component(Zhierarchy.name, Zhierarchy)
 }
 
 export {
   version,
-  QHierarchy,
+  Zhierarchy,
 
   install
 }

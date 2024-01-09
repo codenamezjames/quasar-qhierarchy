@@ -28,7 +28,7 @@
       <vue3-markdown-it :source='source' class="q-px-md"/>
 
       <json-api-viewer
-        title="QHierarchy API"
+        title="Zhierarchy API"
         :json="json"
         starting-tab="general"
         no-menu
@@ -58,7 +58,7 @@ const columns = [
     label: 'Label',
     align: 'left',
     field: 'label',
-    // (optional) tell QHierarchy you want this column sortable
+    // (optional) tell Zhierarchy you want this column sortable
     sortable: true
   },
   {
@@ -176,7 +176,7 @@ const json = {
     "default-expand-all": {
       "extends": "dark",
       "type": "boolean",
-      "desc": "Allow the QHierarchy to have all it's nodes expanded, when first rendered",
+      "desc": "Allow the Zhierarchy to have all it's nodes expanded, when first rendered",
       "category": "behaviour"
     },
     "expand_on_row_click": {
@@ -239,21 +239,21 @@ const json = {
 }
 import md from "markdown-it";
 
-let mds_data = "#### QHierarchy\n" +
+let mds_data = "#### Zhierarchy\n" +
   "\n" +
-  "QHierarchy is a [Quasar App Extension](https://quasar.dev/app-extensions/introduction).  It allows you to display data in hierarchy structure on your page.\n" +
+  "Zhierarchy is a [Quasar App Extension](https://quasar.dev/app-extensions/introduction).  It allows you to display data in hierarchy structure on your page.\n" +
   "\n" +
   "###### Install\n" +
   "To add this App Extension to your Quasar application, run the following (in your Quasar app folder):\n" +
   "\n" +
   "```bash\n" +
-  "quasar ext add qhierarchy\n" +
+  "quasar ext add zhierarchy\n" +
   "```\n" +
   "###### Uninstall \n" +
   "To remove this App Extension from your Quasar application, run the following (in your Quasar app folder):\n" +
   "\n" +
   "```\n" +
-  "quasar ext remove qhierarchy\n" +
+  "quasar ext remove zhierarchy\n" +
   "```\n" +
   "\n" +
   "#### Defining the columns\n" +
@@ -265,7 +265,7 @@ let mds_data = "#### QHierarchy\n" +
   "            label: 'Label',\n" +
   "            align: 'left',\n" +
   "            field: 'label',\n" +
-  "            // (optional) tell QHierarchy you want this column sortable\n" +
+  "            // (optional) tell Zhierarchy you want this column sortable\n" +
   "            sortable: true\n" +
   "        },\n" +
   "        {\n" +
@@ -320,17 +320,17 @@ let mds_data = "#### QHierarchy\n" +
   "\n" +
   "#### Source\n" +
   "\n" +
-  "can be found [here](https://github.com/pratik227/quasar-qhierarchy).\n" +
+  "can be found [here](https://github.com/pratik227/quasar-zhierarchy).\n" +
   "\n" +
   "#### Docs\n" +
   "\n" +
-  "can be found [here](https://quasar-qhierarchy.netlify.com).\n" +
+  "can be found [here](https://quasar-zhierarchy.netlify.com).\n" +
   "\n" +
   "#### Examples\n" +
-  "can be found [here](https://quasar-qhierarchy.netlify.com/examples).\n" +
+  "can be found [here](https://quasar-zhierarchy.netlify.com/examples).\n" +
   "\n" +
   "#### Demo (source) Project.\n" +
-  "can be found [here](https://github.com/pratik227/quasar-qhierarchy/tree/master/demo).\n" +
+  "can be found [here](https://github.com/pratik227/quasar-zhierarchy/tree/master/demo).\n" +
   "\n" +
   "#### Support\n" +
   "If this helped you in any way, you can contribute to this project for long term survival by supporting me:\n" +
@@ -361,7 +361,7 @@ export default defineComponent({
       columns,
       data,
       path,
-      title: 'What is QHierarchy',
+      title: 'What is Zhierarchy',
       year,
       json,
       md_data: '',

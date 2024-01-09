@@ -8,11 +8,11 @@
 
 function extendConf(conf, api) {
     // register our boot file
-    conf.boot.push('~quasar-app-extension-qhierarchy/src/boot/register.js')
+    conf.boot.push('~quasar-app-extension-zhierarchy/src/boot/register.js')
 
     if (api.hasVite !== true) {
         // make sure app extension files & ui package gets transpiled
-        conf.build.transpileDependencies.push(/quasar-app-extension-qhierarchy[\\/]src/)
+        conf.build.transpileDependencies.push(/quasar-app-extension-zhierarchy[\\/]src/)
     }
 }
 
@@ -28,7 +28,7 @@ module.exports = function (api) {
         api.compatibleWith('@quasar/app', '^3.0.0')
     }
     // Uncomment the line below if you provide a JSON API for your component
-    // api.registerDescribeApi('QHierarchy', '~quasar-ui-qhierarchy/src/components/QHierarchy.json')
+    // api.registerDescribeApi('Zhierarchy', '~quasar-ui-zhierarchy/src/components/Zhierarchy.json')
 
     // We extend /quasar.conf.js
     api.extendQuasarConf(extendConf)

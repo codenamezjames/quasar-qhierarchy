@@ -25,7 +25,7 @@
           then determined myself to become a skilled and knowledgeable programmer. I started my career by working with
           HTML5, CSS3, AngularJS, Vue.js, Elasticsearch, and Python and eventually introduced myself with
           Quasar-Framework. After getting hands-on experience on Quasar-Framework for 2 years, I got heavily involved in
-          creating plugins for Quasar Framework such as QHierarchy-Quasar App Extension.
+          creating plugins for Quasar Framework such as Zhierarchy-Quasar App Extension.
 
           <br/>
           <br/>
@@ -40,11 +40,11 @@
           <li>Adding Charts in Quasar</li>
           <li>
             <a
-              href="https://github.com/pratik227/quasar-qhierarchy"
+              href="https://github.com/pratik227/quasar-zhierarchy"
               target="_blank"
               class="markdown-link"
             >
-              QHierarchy
+              Zhierarchy
             </a>
           </li>
           <li>

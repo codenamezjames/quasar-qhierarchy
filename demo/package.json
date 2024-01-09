@@ -13,7 +13,7 @@
     "axios": "^0.21.2",
     "core-js": "^3.6.5",
     "quasar": "^2.14.1",
-    "quasar-app-extension-qhierarchy": "file:../app-extension",
+    "quasar-app-extension-zhierarchy": "file:../app-extension",
     "quasar-ui-example-viewer": "^2.0.0-alpha.6",
     "quasar-ui-json-api-viewer": "^2.0.0-alpha.6",
     "vue": "^3.0.0",

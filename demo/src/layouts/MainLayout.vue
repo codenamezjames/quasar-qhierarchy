@@ -13,7 +13,7 @@
 
         <div v-if="$q.screen.width > 500">
           <span style="font-size: 20px;">
-            QHierarchy &nbsp;
+            Zhierarchy &nbsp;
           </span>
         </div>
 
@@ -34,7 +34,7 @@
     >
       <q-list>
         <q-expansion-item dense style="font-size: 12px;"
-                          label="All about QHierarchy"
+                          label="All about Zhierarchy"
                           header-class="text-primary" :expanded-icon="biCaretUp" :expand-icon="biCaretDown"
                           expand-icon-class="text-primary')"
         >
@@ -42,7 +42,7 @@
             <q-list>
               <q-item class="text-primary q-ml-md" :active-class="$route.path=='/'?'bg-grey-3':''" to="/" dense clickable>
                 <q-item-section>
-                  What is QHierarchy
+                  What is Zhierarchy
                 </q-item-section>
               </q-item>
             </q-list>
@@ -54,49 +54,49 @@
                           expand-icon-class="text-primary')"
         >
           <q-card class="bg-transparent">
-            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-qhierarchy-basic'?'bg-grey-3':''" to="/example-qhierarchy-basic" dense clickable>
+            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-zhierarchy-basic'?'bg-grey-3':''" to="/example-zhierarchy-basic" dense clickable>
               <q-item-section>
-                QHierarchy Basic
+                Zhierarchy Basic
               </q-item-section>
             </q-item>
-            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-qhierarchy-custom'?'bg-grey-3':''" to="/example-qhierarchy-custom" dense clickable>
+            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-zhierarchy-custom'?'bg-grey-3':''" to="/example-zhierarchy-custom" dense clickable>
               <q-item-section>
-                QHierarchy Custom
+                Zhierarchy Custom
               </q-item-section>
             </q-item>
-            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-qhierarchy-slot-demo'?'bg-grey-3':''" to="/example-qhierarchy-slot-demo" dense clickable>
+            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-zhierarchy-slot-demo'?'bg-grey-3':''" to="/example-zhierarchy-slot-demo" dense clickable>
               <q-item-section>
-                QHierarchy Slot Demo
+                Zhierarchy Slot Demo
               </q-item-section>
             </q-item>
-            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-qhierarchy-header-slot-demo'?'bg-grey-3':''" to="/example-qhierarchy-header-slot-demo" dense clickable>
+            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-zhierarchy-header-slot-demo'?'bg-grey-3':''" to="/example-zhierarchy-header-slot-demo" dense clickable>
               <q-item-section>
-                QHierarchy Header Slot Demo
+                Zhierarchy Header Slot Demo
               </q-item-section>
             </q-item>
-            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-qhierarchy-footer-slot-demo'?'bg-grey-3':''" to="/example-qhierarchy-footer-slot-demo" dense clickable>
+            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-zhierarchy-footer-slot-demo'?'bg-grey-3':''" to="/example-zhierarchy-footer-slot-demo" dense clickable>
               <q-item-section>
-                QHierarchy Footer Slot Demo
+                Zhierarchy Footer Slot Demo
               </q-item-section>
             </q-item>
-            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-qhierarchy-footer-demo'?'bg-grey-3':''" to="/example-qhierarchy-footer-demo" dense clickable>
+            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-zhierarchy-footer-demo'?'bg-grey-3':''" to="/example-zhierarchy-footer-demo" dense clickable>
               <q-item-section>
-                QHierarchy Footer Demo
+                Zhierarchy Footer Demo
               </q-item-section>
             </q-item>
-            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-qhierarchy-row-click-demo'?'bg-grey-3':''" to="/example-qhierarchy-row-click-demo" dense clickable>
+            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-zhierarchy-row-click-demo'?'bg-grey-3':''" to="/example-zhierarchy-row-click-demo" dense clickable>
               <q-item-section>
-                QHierarchy Row Click Demo
+                Zhierarchy Row Click Demo
               </q-item-section>
             </q-item>
-            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-qhierarchy-default-expand-all'?'bg-grey-3':''" to="/example-qhierarchy-default-expand-all" dense clickable>
+            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-zhierarchy-default-expand-all'?'bg-grey-3':''" to="/example-zhierarchy-default-expand-all" dense clickable>
               <q-item-section>
-                QHierarchy Default Expand All
+                Zhierarchy Default Expand All
               </q-item-section>
             </q-item>
-            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-qhierarchy-filter-demo'?'bg-grey-3':''" to="/example-qhierarchy-filter-demo" dense clickable>
+            <q-item class="text-primary q-ml-md" :active-class="$route.path=='/example-zhierarchy-filter-demo'?'bg-grey-3':''" to="/example-zhierarchy-filter-demo" dense clickable>
               <q-item-section>
-                QHierarchy Filter Demo
+                Zhierarchy Filter Demo
               </q-item-section>
             </q-item>
           </q-card>
@@ -122,7 +122,7 @@
         >
           <q-card class="bg-transparent">
             <q-item class="text-primary q-ml-md" type="a"
-                    @click="openLink('https://github.com/pratik227/quasar-qhierarchy')" dense clickable>
+                    @click="openLink('https://github.com/pratik227/quasar-zhierarchy')" dense clickable>
               <q-item-section>
                 Github
               </q-item-section>
@@ -151,7 +151,7 @@
 
     <q-footer elevated class="glass" style="background-color: #77a2e1">
       <q-toolbar>
-        <div class="full-width text-center">This documentation site for QHierarchy is a work in progress. If you see something missing or inaccurate, please create a PR on the <markdown-link to="https://github.com/pratik227/quasar-qhierarchy" style="color: white;">GitHub repo</markdown-link>.</div>
+        <div class="full-width text-center">This documentation site for Zhierarchy is a work in progress. If you see something missing or inaccurate, please create a PR on the <markdown-link to="https://github.com/pratik227/quasar-zhierarchy" style="color: white;">GitHub repo</markdown-link>.</div>
       </q-toolbar>
     </q-footer>
 
@@ -239,4 +239,3 @@ export default defineComponent({
   }
 })
 </script>
-

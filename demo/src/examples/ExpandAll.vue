@@ -1,5 +1,5 @@
 <template>
-  <q-hierarchy dense :columns="columns" :data="data" :classes="classes" :dark="dark" :default-expand-all="default_expand_all"></q-hierarchy>
+  <z-hierarchy dense :columns="columns" :data="data" :classes="classes" :dark="dark" :default-expand-all="default_expand_all"></z-hierarchy>
 </template>
 
 <script>
@@ -11,7 +11,7 @@ const columns = [
     label: 'Label',
     align: 'left',
     field: 'label',
-    // (optional) tell QHierarchy you want this column sortable
+    // (optional) tell Zhierarchy you want this column sortable
     sortable: true
   },
   {

@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-pa-sm">
-    <q-hierarchy dense :columns="columns" :data="data" @sort_column="test($event)" :classes="classes" :dark="dark"
+    <z-hierarchy dense :columns="columns" :data="data" @sort_column="test($event)" :classes="classes" :dark="dark"
                  :expand_on_row_click="true" footer_text="Copyright 2023 @ Pratik Patel" footer_class="text-right">
 
       <template v-slot:header="props">
@@ -13,7 +13,7 @@
       <template v-slot:footer="props">
         <td :colspan="columns.length">Footer Text</td>
       </template>
-    </q-hierarchy>
+    </z-hierarchy>
   </q-page>
 </template>
 
@@ -26,7 +26,7 @@ const columns = [
     label: 'Label',
     align: 'left',
     field: 'label',
-    // (optional) tell QHierarchy you want this column sortable
+    // (optional) tell Zhierarchy you want this column sortable
     sortable: true
   },
   {

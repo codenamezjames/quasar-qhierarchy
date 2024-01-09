@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/quasar-qhierarchy.iml" filepath="$PROJECT_DIR$/.idea/quasar-qhierarchy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/quasar-zhierarchy.iml" filepath="$PROJECT_DIR$/.idea/quasar-zhierarchy.iml" />
     </modules>
   </component>
 </project>

@@ -9,7 +9,7 @@
       </div>
 
       <example-viewer
-        title="QHierarchy Default Expand All"
+        title="Zhierarchy Default Expand All"
         file="ExpandAll"
       />
 
@@ -33,7 +33,7 @@ export default defineComponent({
   name: "ExpandAllExample",
   setup(){
     return{
-      title:'QHierarchy Default Expand All',
+      title:'Zhierarchy Default Expand All',
       year,
       mdiCharity
     }

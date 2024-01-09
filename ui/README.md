@@ -1,11 +1,11 @@
-# Component QHierarchy
+# Component Zhierarchy
 
-[![npm](https://img.shields.io/npm/v/quasar-ui-qhierarchy.svg?label=quasar-ui-qhierarchy)](https://www.npmjs.com/package/quasar-ui-qhierarchy)
-[![npm](https://img.shields.io/npm/dt/quasar-ui-qhierarchy.svg)](https://www.npmjs.com/package/quasar-ui-qhierarchy)
+[![npm](https://img.shields.io/npm/v/quasar-ui-zhierarchy.svg?label=quasar-ui-zhierarchy)](https://www.npmjs.com/package/quasar-ui-zhierarchy)
+[![npm](https://img.shields.io/npm/dt/quasar-ui-zhierarchy.svg)](https://www.npmjs.com/package/quasar-ui-zhierarchy)
 
 **Compatible with Quasar UI v2 and Vue 3**.
 
-# Component QHierarchy
+# Component Zhierarchy
 > Short description of the component
 
 
@@ -21,7 +21,7 @@ Create and register a boot file:
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-qhierarchy'
+import Plugin from 'quasar-ui-zhierarchy'
 
 Vue.use(Plugin)
 ```
@@ -30,11 +30,11 @@ Vue.use(Plugin)
 
 ```html
 <script>
-import { Component as QHierarchy } from 'quasar-ui-qhierarchy'
+import { Component as Zhierarchy } from 'quasar-ui-zhierarchy'
 
 export default {
   components: {
-    QHierarchy
+    Zhierarchy
   }
 }
 </script>
@@ -44,7 +44,7 @@ export default {
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-qhierarchy'
+import Plugin from 'quasar-ui-zhierarchy'
 
 Vue.use(Plugin)
 ```
@@ -53,11 +53,11 @@ Vue.use(Plugin)
 
 ```html
 <script>
-import { Component as QHierarchy } from 'quasar-ui-qhierarchy'
+import { Component as Zhierarchy } from 'quasar-ui-zhierarchy'
 
 export default {
   components: {
-    QHierarchy
+    Zhierarchy
   }
 }
 </script>
@@ -65,14 +65,14 @@ export default {
 
 ## UMD variant
 
-Exports `window.qhierarchy`.
+Exports `window.zhierarchy`.
 
 Add the following tag(s) after the Quasar ones:
 
 ```html
 <body>
   <!-- at end of body, AFTER Quasar script(s): -->
-  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-qhierarchy/dist/index.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-zhierarchy/dist/index.umd.min.js"></script>
 </body>
 ```
 
